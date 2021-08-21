@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --green: #B7E4A2;
+    --red: #FF3156;
+    --white: #FFFFFF;
+    --black: #111111;
+    --orange: #FCD6AD;
+    --cyan:#0ABAB5;
+    --blue: #002577;
+    --deeporange: #F79933;
+    --lightblue: #4A65EE
+}
+
+body {
+    background-color: var(--black);
+}
+
+.body {
+    margin: auto;
+    width: 90%;
+}
+
+h2, a, h1, h4, h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h2 {
+    color: var(--red);
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 60px;
+    padding: 0;
+    font-weight: bold;
+    margin: 10px 0 20px 0px;
+}
+
+.jose {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-jus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav p {
+    padding: 10px;
+    margin-left: 16px;
+}
+
+.nav-bar {
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.nav a {
+    color: var(--black);
+    background-color: var(--white);
+}
+
+.nav .link {
+    background-color: var(--white);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+/* Hero sections */
+
+.hero {
+    width: 80%;
+    margin: auto;
+
+}
+
+.hero-left {
+    width: 42%;
+    /* border: 1px solid var(--green); */
+    margin-top: 130px;
+}
+
+.hero p {
+    color: var(--green);
+}
+
+.hero .hero-left .btn {
+    margin-top: 40px;
+}
+
+.hero .hero-left .btn p {
+    padding: 10px 15px;
+}
+
+.hero .hero-left .btn .hire a {
+    color: var(--black);
+}
+
+.hero .hero-left .btn .hire {
+    background-color: var(--green);
+    border-radius: 6px;
+    margin-right: 20px;
+}
+
+.hero .hero-left .btn .pro a {
+    color: var(--white);
+}
+
+.hero .hero-left .btn .pro {
+    border: 1px solid var(--green);
+    border-radius: 6px;
+}
+
+.hero .hero-right {
+    width: 45%;
+    height: 10%;
+    /* border: 1px solid red; */
+}
+
+.hero .hero-img {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid var(--green); */
+}
+
+/* Project section */
+
+.pro-body {
+    margin-top: 160px;
+    /* border: 1px solid red; */
+}
+
+.pro-body h4 {
+    color: var(--white);
+}
+
+.pro-body .pro-head{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 20px 0 55px 0;
+    color: var(--white);
+}
+
+.boxes {
+    margin-bottom: 30px;
+}
+
+.boxes h3 {
+    width: 76%;
+    font-size: 24px;
+    margin: 50px 0 20px 0;
+}
+
+.box {
+    padding: 70px;
+    background-color: var(--green);
+    max-width: 160px;
+    /* border: 1px solid red; */
+}
+
+.link {
+    justify-content: space-between;
+}
+
+.link a {
+    color: var(--black);
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 320px 320px;
+    gap: 34px 34px;
+    /* border: 1px solid blue; */
+}
+
+.box-2 {
+    background-color: var(--orange);
+}
+
+.box-3 {
+    background-color: var(--cyan);
+}
+
+.box-4 {
+    background-color: var(--blue);
+}
+
+.box-5 {
+    background-color: var(--deeporange);
+}
+
+.box-6 {
+    background-color: var(--lightblue);
+}
+
+.pro-body .pro-p, .pro-more a {
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.pro-more a {
+    padding: 10px 15px;
+    border: 1px solid green;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    grid-template-rows: 56px 56px;
+    gap: 14px 14px;
+    margin-top: 40px;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border: 1px solid var(--green);
+    border-left: 10px solid var(--green);
+    color: var(--white);
+}
+
+.grid-contact {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 56px 56px;
+    gap: 14px 14px;
+    margin-top: 40px;
+}
+
+.contact {
+    padding: 10px 15px;
+    border-left: 10px solid var(--green);
+    color: var(--white);
+}
+
+.contact h3 {
+    margin-top: 10px;
+}
+
+.footer {
+    padding: 15px 180px;
+    color: var(--black);
+    background-color: var(--green);
+}
